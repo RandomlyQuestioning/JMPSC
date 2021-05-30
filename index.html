@@ -34,15 +34,15 @@
             </div>
                 <div class="showcase-form card">
                 <h2>Contact Us</h2>
-                <form name="contact" netlify>
+                <form method="post">
                     <div class="form-control">
                         <input type="text" name="name" id="contname" placeholder="Name" required>
                     </div>
                     <div class="form-control">
-                        <input type="text" name="email" id="contemail" placeholder="Email" required>
+                        <input type="email" name="email" id="contemail" placeholder="Email" required>
                     </div>
                     <div class="form-control">
-                        <input type="text" name="message" id="contmessage" placeholder="Question or Message" required>
+                        <input type="text" name="email" id="contmessage" placeholder="Message" required>
                     </div>
                     <input type="submit" value="Send" onclick="contacted()" class="btn btn-primary">
                 </form>
