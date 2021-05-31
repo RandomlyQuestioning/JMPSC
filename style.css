@@ -158,15 +158,15 @@ pre {
     background: #fff;
     margin: 5px;
     margin-bottom: 50px;
-    width: 300px;
-    padding: 20px;
+    width: 400px;
+    padding: 40px;
     line-height: 20px;
     color: #8e8b8b;  
     position: relative;
   }
   
   .team .team_member h3{
-    color: #81c644;
+    color: var(--primary-color);
     font-size: 26px;
     margin-top: 50px;
   }
