@@ -142,7 +142,7 @@ pre {
 
 
 .wrapper{
-    margin-top: 10%;
+    margin-top: 3%;
   }
 
   
@@ -530,12 +530,8 @@ html {
 }
 
 /* Backgrounds & colored buttons */
-.bg-primary{
-    background-color: var(--primary-color);
-    color: #fff;
-}
-
-.btn-primary{
+.bg-primary,
+.btn-primary {
     background-color: var(--primary-color);
     color: #fff;
 }
