@@ -147,10 +147,12 @@
     </footer>
     <script>
 
-
+require('dotenv').config();
 function contacted () {
         var request = new XMLHttpRequest();
-        request.open("POST", "https://discord.com/api/webhooks/848381735015677962/o1HHcWQdky-h8BWegrkfuc7Z967ze3uaHb0Pl05Lazf-ZyP3qNNrVMZaIKvH1o5icw0b");
+        info = process.env
+        webhook = info["WEBHOOK"]
+        request.open("POST", webhookurl);
         request.setRequestHeader('Content-type', 'application/json');
         const email = document.getElementById("contemail").value;
         const message = document.getElementById("contmessage").value;
