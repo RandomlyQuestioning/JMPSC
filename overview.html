@@ -105,6 +105,16 @@
         </div>
       </div>
     </div>	
+            <script> 
+      function disableClick(){ 
+        document.onclick=function(event){ 
+          if (event.button == 2) { 
+            alert('Right Click Message'); 
+            return false; 
+          } 
+        } 
+      } 
+    </script> 
     <footer class="footer bg-dark py-5">
         <div class="container grid grid-1">
             <div>
